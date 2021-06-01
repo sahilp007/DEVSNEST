@@ -1,0 +1,14 @@
+.base{
+	margin: 50px;
+	max-width: 27rem;
+}
+
+.underline{
+	text-underline: yellowgreen;
+	text-decoration-color: yellow;
+	color: #81bb40;
+	text-underline-style: dot-dot-dash;
+}
+q{
+	quotes: '\00AB' '\00BB' '\201E' '\201C';;
+}
