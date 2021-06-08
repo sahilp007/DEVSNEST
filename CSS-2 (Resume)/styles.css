@@ -1,0 +1,38 @@
+.base{
+	margin: 30px 240px 30px 240px;
+	align-content: center;
+	min-width: 300px;
+	/*height: 500px;*/
+	display: flex;
+	box-sizing: border-box;
+	border-style: groove;
+	border-color: red;
+}
+
+h3 {
+	border-style: groove;
+	border-color: red;
+	align-content: center;
+	width: 20%;
+	padding: 8px 56px 9px 40px;
+	margin-right: 42px;
+	margin-left: 73px;
+	position: relative;
+	left: -10px;
+	top: -4px;
+}
+.band{
+	display: flex;
+	/*border-style: groove;*/
+	/*border-color: red;*/
+	flex-direction : column;
+	padding: 30px;
+	border-right: cornflowerblue;
+}
+.heading{
+	place-items: center;
+	position: absolute;
+	background-color: white;
+	left: 39%;
+	top: -7px;
+}
