@@ -1,0 +1,27 @@
+*{
+	background-color: #32e5a4;
+}
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 756px;
+	margin: auto;
+
+}
+.box{
+	margin: 4px;
+	width: 100px;
+	height: 100px;
+	background-color: beige;
+}
+.clicked{
+	background-color: #467ff3;
+}
+
+.title{
+	display: flex;
+	box-sizing: border-box;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
