@@ -3,7 +3,8 @@ function clicked() {
 	const inp = document.getElementsByClassName('input')[0].value
 	const ele = document.createElement('li')
 	const eleThis = this
-	ele.innerHTML = `${inp}<button onclick="del(elThis)">Delete</button>`
+	ele.innerHTML = `${inp}<button onclick="del(this)">Delete</button>`
+	inp.innerText=''
 	console.log(eleThis);
 	ul.appendChild(ele)
 }
