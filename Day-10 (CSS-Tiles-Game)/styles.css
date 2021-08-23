@@ -30,7 +30,7 @@ body :before{
 	width: 90%;
 	height: 85%;
 	display: grid;
-	grid-template-rows: repeat(1fr, 4);
+	grid-template-rows: repeat(4,1fr);
 	grid-template-columns: repeat(4, 1fr);
 	grid-gap: 10px;
 }

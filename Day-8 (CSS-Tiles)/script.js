@@ -31,7 +31,7 @@ let x = [562, 566, 570, 571, 575, 578, 580, 583, 584, 585, 586,
 	817, 821, 823, 829, 832, 835, 839, 842, 846, 850, 855, 858, 859, 860,
 	863, 869, 873, 876, 877, 878]
 
-x.forEach(i=>{
+x.forEach(i => {
 	document.getElementById(i).classList.toggle('inactive')
 	document.getElementById(i).classList.toggle('active')
 })
